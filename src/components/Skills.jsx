@@ -10,7 +10,7 @@ import SQL from '../assets/sql.jpg';
 import Cplus from '../assets/cplus.png';
 import Gatsby from '../assets/Gatsby.png'
 import Netlify from '../assets/netlify.png'
-import GraphQL from '../assets/graphql.png'
+import GraphQL from '../assets/GraphQL.png'
 import Mongo from '../assets/mongo.png'
 
 const Skills = () => {
