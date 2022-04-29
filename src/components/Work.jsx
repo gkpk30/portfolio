@@ -1,13 +1,13 @@
 import React from 'react'
-import captainImg2 from '../assets/captainImg2.png'
+import captainImg1 from '../assets/captainImg1.jpg'
 import workImg from '../assets/workImg.jpg'
 import realestate from '../assets/realestate.jpg'
 import Thumbnail from '../components/Thumbnail'
-import hano from '../assets/hano.png'
+import hano from '../assets/hano.jpg'
 
 // Add new projects to below array  
 const projectList = [
-    {name: 'captain Termite', url: 'https://www.captaintermitecontrol.com', description: 'Gatsby, MUI, ChartJS, MarkDown', img: captainImg2, gitHub: 'https://github.com/gkpk30/cptermiteHero'}, 
+    {name: 'captain Termite', url: 'https://www.captaintermitecontrol.com', description: 'Gatsby, MUI, ChartJS, MarkDown', img: captainImg1, gitHub: 'https://github.com/gkpk30/cptermiteHero'}, 
     {name: 'HTCO', url: 'http://www.hanotrading.com', description: 'CSS', img: hano },
     {name: 'LokiLotion', url: '', description: 'BootStrap', img: workImg }
 
