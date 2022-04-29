@@ -7,7 +7,7 @@ import Work from "./components/Work";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar/>
       <Home/>
       <About/>

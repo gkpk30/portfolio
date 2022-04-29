@@ -4,6 +4,7 @@
 @layer base {
     body {
         @apply font-[Raleway];
+        background-color: green;
     }
     li {
         @apply px-4;
@@ -27,6 +28,39 @@
     )!important;
     
 }
+
+.active {
+    color: chocolate;
+}
+
+.hero {
+    position: relative;
+}
+.hero:after{
+    content: "hello";
+    width: 30px;
+    height: 30px;
+    background: blue;
+    /* background:red url("http://www.gentleface.com/i/free_toolbar_icons_16x16_black.png") no-repeat -30px -50px fixed; */
+    top: 50%;
+    right: 100px;
+    z-index: 100;
+    position: absolute;
+    display: inline-block;
+}
+
+.circle {
+   
+    border-radius: 50%;;
+    display: inline-block;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(210, 105, 30, 0.329);
+    position: absolute;
+    /* background-color: chocolate; */
+    z-index: 1;
+}
+
 
 @tailwind base;
 @tailwind components;
