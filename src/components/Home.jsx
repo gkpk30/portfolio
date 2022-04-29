@@ -20,8 +20,8 @@ const Home = () => {
         </Link>
         </div>
       </div>
-      <span className="circle -z-10 h-40 w-40 md:h-[100vh] md:w-[100vh] top-[-10%] right-0 " ></span>
-      <div className="absolute -z-20  rotate-45  font-bold hidden sm:block  md:right-[10%] md:top-1/3   ">
+      <span className="circle -z-10 h-60 w-60 md:h-[900px] md:w-[900px] top-[10%] md:-top-[10%] right-[20%] opacity-20 " ></span>
+      <div className="absolute -z-20  rotate-45  font-bold hidden sm:block  md:right-[20%] md:top-1/3   ">
         <p className="text-6xl md:text-9xl text-pink-600 text-opacity-10 ">Front End</p>
         <br/>
         <p className="text-6xl md:text-9xl text-pink-600  text-opacity-10">Back End</p>

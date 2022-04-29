@@ -88,31 +88,32 @@ const About = () => {
 
 
                 </div>
-                <div className="absolute top-0 right-0" >
-                        
-                        <svg width="180" height="180" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.25 1.22998H0L9.25 10.48V1.22998Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M23.12 15.09H13.87L23.12 24.34V15.09Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M36.98 28.96H27.73L36.98 38.21V28.96Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M50.85 42.82H41.6L50.85 52.07V42.82Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M64.72 56.69H55.47L64.72 65.94V56.69Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M78.58 70.55H69.33L78.58 79.81V70.55Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M37.28 0.929993H28.03L37.28 10.18V0.929993Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M51.14 14.8H41.89L51.14 24.05V14.8Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M65.01 28.66H55.76L65.01 37.91V28.66Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M78.88 42.53H69.63L78.88 51.78V42.53Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M65.3 0.639984H56.05L65.3 9.88998V0.639984Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M79.17 14.5H69.92L79.17 23.75V14.5Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M23.67 0.669983H14.42L23.67 9.91998V0.669983Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M37.54 14.54H28.28L37.54 23.79V14.54Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M51.4 28.41H42.15L51.4 37.66V28.41Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M65.27 42.27H56.02L65.27 51.52V42.27Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M79.13 56.14H69.88L79.13 65.39V56.14Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M51.29 0.779999H42.04L51.29 10.03V0.779999Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M65.16 14.65H55.91L65.16 23.9V14.65Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M79.02 28.52H69.77L79.02 37.77V28.52Z" fill="#DB2777" fill-opacity="0.1"/>
-                        <path d="M79.81 0H70.55L79.81 9.25V0Z" fill="#DB2777" fill-opacity="0.1"/>
-                        </svg>
+                <div className="absolute -top-[150px] right-0" >
+                                            
+                    <svg width="197" height="198" viewBox="0 0 197 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.8324 3.84604H0L22.8324 26.6784V3.84604Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M57.0685 38.0576H34.2362L57.0685 60.8899V38.0576Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M91.2801 72.2938H68.4477L91.2801 95.1261V72.2938Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M125.516 106.505H102.684L125.516 129.338V106.505Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M159.752 140.741H136.92L159.752 163.574V140.741Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M193.964 174.953H171.132L193.964 197.81V174.953Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M92.0206 3.10556H69.1882L92.0206 25.9379V3.10556Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M126.232 37.3417H103.4L126.232 60.1741V37.3417Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M160.468 71.5533H137.636L160.468 94.3856V71.5533Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M194.704 105.789H171.872L194.704 128.622V105.789Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M161.184 2.38971H138.352L161.184 25.2221V2.38971Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M195.42 36.6013H172.588L195.42 59.4336V36.6013Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M58.4262 2.46375H35.5938L58.4262 25.2961V2.46375Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M92.6624 36.6999H69.8053L92.6624 59.5323V36.6999Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M126.874 70.9362H104.041L126.874 93.7685V70.9362Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M161.11 105.148H138.278L161.11 127.98V105.148Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M195.322 139.384H172.489L195.322 162.216V139.384Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M126.602 2.73532H103.77L126.602 25.5677V2.73532Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M160.839 36.9715H138.006L160.839 59.8038V36.9715Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M195.05 71.2077H172.218L195.05 94.04V71.2077Z" fill="#D2691E" fill-opacity="0.1"/>
+                            <path d="M197 0.809998H174.143L197 23.6423V0.809998Z" fill="#D2691E" fill-opacity="0.1"/>
+                    </svg>
+
                     </div>
                 <div className="sm:text-right pb-8 pl-4">
                     <p className="text-4xl font-bold inline border-b-4 border-pink-400">About</p>
