@@ -12,6 +12,7 @@ import Gatsby from '../assets/Gatsby.png'
 import Netlify from '../assets/netlify.png'
 import GraphQL from '../assets/GraphQL.png'
 import Mongo from '../assets/mongo.png'
+import NextJs from '../assets/Next.js.png';
 
 const Skills = () => {
   return (
@@ -20,14 +21,11 @@ const Skills = () => {
      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
          <div>
              <p className="text-4xl inline  border-b-4 border-pink-600 ">Skills</p>
-             <p className="py-4">//These are the technologies I've worked with</p>
+             <p className="py-4">// I continuously stay updated with the evolving tech landscape to ensure that I leverage the most innovative solutions for your project's success.</p>
          </div>
 
          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 py-8 text-center">
-            <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
-                <img className="w-20 mx-auto" src={HTML} alt="html logo" />
-                <p className="my-4">HTML</p>
-            </div>
+           
             <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
                 <img className="w-20 mx-auto" src={Javascript} alt="Javacript logo" />
                 <p className="my-4">Javascript</p>
@@ -35,6 +33,10 @@ const Skills = () => {
             <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
                 <img className="w-20 mx-auto" src={CSS} alt="CSS logo" />
                 <p className="my-4">CSS</p>
+            </div>
+            <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
+                <img className="w-20 mx-auto" src={NextJs} alt="Next Js logo" />
+                <p className="my-4">Next JS</p>
             </div>
             <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
                 <img className="w-20 mx-auto" src={REACT} alt="React logo" />
@@ -71,6 +73,10 @@ const Skills = () => {
             <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
                 <img className="w-20 mx-auto max-h-20" src={Mongo} alt="MongoDB logo" />
                 <p className="my-4">MongoDb</p>
+            </div>
+            <div className="shadow-md shadow-black  hover:scale-110 duration-500" >
+                <img className="w-20 mx-auto max-h-20"  src="https://s.w.org/style/images/about/WordPress-logotype-simplified.png" alt="Word press logo" />
+                <p className="my-4">Word Press</p>
             </div>
          </div>
      </div>

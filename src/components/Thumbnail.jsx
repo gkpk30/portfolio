@@ -16,9 +16,14 @@ const Thumbnail = (props) => {
                             <a href={props.url} target="_blank">
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" >Demo</button>
                             </a>
-                            <a href={props.gitHub} target="_blank">
+                            {
+                            props.gitHub?  <a href={props.gitHub} target="_blank">
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg" >Code</button>
-                            </a>
+                            </a> 
+                            :
+                            null
+                            }
+                           
                         </div>
                     </div>
                     
