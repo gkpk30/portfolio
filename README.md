@@ -6,6 +6,11 @@ Just clone this repository or click the `Use This Template` button or use degit 
 
 ---
 
+---
+## How to Build and Deploy
+NPM Run Build  then copy the dist folder to the netlify deploy area
+If you choose continous deployment then in Netlify the Build Command there would be 'vite build' and the Publish directory would be 'dist'
+
 ## Quick Clone:
 
 ```shell

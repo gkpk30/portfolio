@@ -34,12 +34,12 @@ import PierceLogo from '../assets/pierce.png';
 
 const Education = () => {
   return (
-    <section className="w-full bg-[#0a192f] text-gray-300 py-8">
-      <div className="max-w-[1000px] mx-auto p-4">
+    <section name="education" className="w-full h-auto  bg-[#0a192f] text-gray-300 pt-28  ">
+      <div className="max-w-[1000px] mx-auto p-4 ">
         <h2 className="text-4xl border-b-4 border-pink-600 inline">Education</h2>
         <div className="divide-y divide-white/10">
           <div className="px-4 py-6 flex items-center gap-4">
-            <img src={CSUNLogo} alt="CSUN Logo" className="w-12" />
+            <img src={CSUNLogo} alt="CSUN Logo" className="w-12 bg-slate-600" />
             <div>
               <h3 className="text-lg font-medium leading-6 text-white">Cal State Northridge</h3>
               <p className="text-sm leading-5 text-gray-400">BA in Political Science</p>
@@ -49,7 +49,7 @@ const Education = () => {
             <img src={PierceLogo} alt="Pierce College Logo" className="w-12" />
             <div>
               <h3 className="text-lg font-medium leading-6 text-white">Pierce College</h3>
-              <p className="text-sm leading-5 text-gray-400">AA in Programming</p>
+              <p className="text-sm leading-5 text-gray-400">AA Business Programming | Certificate of Achievement in Web Development, Programming & Scripting </p>
             </div>
           </div>
         </div>

@@ -33,8 +33,8 @@ const Navbar = () => {
           <text
             x="50"
             y="60"
-            font-size="30"
-            font-family="cursive"
+            fontSize="30"
+            fontFamily="cursive"
             fill="white"
             opacity="1"
           >
@@ -66,7 +66,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="work" spy={true} smooth={true} duration={500}>
+          <Link to="education" spy={true} smooth={true} duration={500}>
             Education
           </Link>
         </li>
@@ -131,6 +131,17 @@ const Navbar = () => {
             duration={500}
           >
             Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="education"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Education
           </Link>
         </li>
         <li className="py-6 text-4xl">
