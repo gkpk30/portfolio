@@ -6,16 +6,20 @@ import Thumbnail from '../components/Thumbnail'
 import hano from '../assets/hanoImage.jpg'
 import tfg from '../assets/tfg.jpg'
 import evo from '../assets/evoterm.jpg'
-import bs from '../assets/bettersalon.jpg'
+import bs from '../assets/hb-ss.jpg'
+import wrapCity from '../assets/wrapcity-ss.jpg'
 
 // Add new projects to below array  
 const projectList = [
-    {name: 'captain Termite', url: 'https://www.captaintermitecontrol.com', description: 'Gatsby, MUI, ChartJS, MarkDown', img: captainImg1, gitHub: 'https://github.com/gkpk30/cptermiteHero'}, 
-    {name: 'HTCO', url: 'http://www.hanotrading.com', description: 'CSS HTML', img: hano , gitHub: 'https://github.com/gkpk30/hano' },
-    // {name: 'The Financing Guy', url: 'https://thefinancingguy.com', description: 'Word Press', img: workImg },
-    {name: 'The Financing Guy', url: 'https://thefinancingguy.com', description: 'Word Press', img: tfg },
-    {name: 'Evolution Termite', url: 'https://evolution-termite.netlify.app/', description: 'Gatsby', img: evo, gitHub: 'https://github.com/gkpk30/evolution-termite' },
+     
     {name: 'Better Salon', url: 'https://better-salon.netlify.app/', description: 'NextJs GraphCMS', img: bs, gitHub: 'https://github.com/gkpk30/cptermiteHero' },
+    // {name: 'Original element', url: 'https://thefinancingguy.com', description: 'Word Press', img: workImg },
+    {name: 'HTCO', url: 'http://www.hanotrading.com', description: 'CSS HTML', img: hano , gitHub: 'https://github.com/gkpk30/hano' },
+    {name: 'The Financing Guy', url: 'https://thefinancingguy.com/get-a-home-loan-pre-approval/', description: 'Word Press', img: tfg },
+    {name: 'Wrap City Inc', url: 'https://sandiegovehiclewraps.com', description: 'Go Daddy Web Build', img: wrapCity },
+    {name: 'captain Termite', url: 'https://www.captaintermitecontrol.com', description: 'Gatsby, MUI, MarkDown', img: captainImg1, gitHub: 'https://github.com/gkpk30/cptermiteHero'},
+    {name: 'Evolution Termite', url: 'https://evolution-termite.netlify.app/', description: 'In Development', img: evo, gitHub: 'https://github.com/gkpk30/evolution-termite' },
+    
 
 ]
 
